@@ -1,4 +1,4 @@
-```
+```sql
 CREATE TABLE customers
 (id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
 fullname varchar(255),
@@ -8,7 +8,7 @@ phone_number varchar(13),
 address varchar(255));
 ```
 
-```
+```sql
 INSERT INTO customers (fullname, username, email, phoneNumber, address)
 VALUES
 ('Angga Prasetya W', 'anggapw', 'agpw@gmail.com', '080989999', 'Jl. Soekarno Hatta No.99'),

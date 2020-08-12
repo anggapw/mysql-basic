@@ -1,4 +1,4 @@
-```
+```sql
 CREATE TABLE products
 (product_id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
  varchar(255),
@@ -6,7 +6,7 @@ CREATE TABLE products
  stock int);
 ```
 
-```
+```sql
 INSERT INTO products (product_name, price, stock)
 VALUES
 ('keyboard', 500000, 20),
